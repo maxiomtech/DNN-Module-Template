@@ -156,6 +156,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 # Custom Ignore
-Client/**/*.js
-Client/**/*.js.map
+Client/*.js
+Client/*.js.map
 *GhostDoc.xml
