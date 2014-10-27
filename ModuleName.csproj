@@ -978,13 +978,13 @@
   <ItemGroup>
     <Folder Include="Client\Common\Directives\" />
     <Folder Include="Client\Common\Filters\" />
-    <Folder Include="Client\Common\Services\" />
     <Folder Include="Components\Extensions\" />
     <Folder Include="Controls\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Client\app.ts" />
+    <TypeScriptCompile Include="Client\Common\Services\Api.ts" />
     <TypeScriptCompile Include="Client\references.ts" />
     <TypeScriptCompile Include="Scripts\rx-lite.d.ts" />
     <TypeScriptCompile Include="Scripts\rx.aggregates.d.ts" />
