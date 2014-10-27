@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="CompanyName.ModuleTemplate" type="Module" version="1.0.0.0">
+      <friendlyName>Module Template</friendlyName>
+      <description></description>
+      <iconFile />
+      <owner>
+        <name></name>
+        <organization></organization>
+        <url></url>
+        <email></email>
+      </owner>
+      <license src="License.htm" />
+      <releaseNotes src="ReleaseNotes.htm" />
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>CompanyName.ModuleTemplate</moduleName>
+            <foldername>CompanyName/ModuleTemplate</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>CompanyName ModuleTemplate</friendlyName>
+                <definitionName>CompanyName ModuleTemplate</definitionName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/CompanyName/ModuleTemplate/Loader.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <supportsPopUps>False</supportsPopUps>
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Settings</controlKey>
+                    <controlSrc>DesktopModules/CompanyName/ModuleTemplate/Settings.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <supportsPopUps>False</supportsPopUps>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <name>CompanyName.ModuleTemplate.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\CompanyName\ModuleTemplate</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+              <sourceFileName>Resources.zip</sourceFileName>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\CompanyName\ModuleTemplate\Providers\SqlDataProvider</basePath>
+            <script type="Install">
+              <name>01.00.00.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+            <script type="Uninstall">
+              <name>Uninstall.SqlDataProvider</name>
+            </script>
+          </scripts>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
