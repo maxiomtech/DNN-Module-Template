@@ -145,6 +145,7 @@
     <Content Include="content\toastr.min.css" />
     <Content Include="Documentation\License.htm" />
     <Content Include="Documentation\ReleaseNotes.htm" />
+    <Content Include="Images\icon.png" />
     <Content Include="Loader.ascx" />
     <Content Include="module.css">
       <DependentUpon>module.less</DependentUpon>
@@ -980,11 +981,11 @@
     <Folder Include="Client\Common\Filters\" />
     <Folder Include="Components\Extensions\" />
     <Folder Include="Controls\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Client\app.ts" />
     <TypeScriptCompile Include="Client\Common\Services\Api.ts" />
+    <TypeScriptCompile Include="Client\Main\MainCtl.ts" />
     <TypeScriptCompile Include="Client\references.ts" />
     <TypeScriptCompile Include="Scripts\rx-lite.d.ts" />
     <TypeScriptCompile Include="Scripts\rx.aggregates.d.ts" />
