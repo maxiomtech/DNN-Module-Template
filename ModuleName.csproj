@@ -26,7 +26,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>..\..\..\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -124,6 +124,13 @@
     </Compile>
     <Compile Include="Settings.ascx.designer.cs">
       <DependentUpon>Settings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Configuration.ascx.cs">
+      <DependentUpon>Configuration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Configuration.ascx.designer.cs">
+      <DependentUpon>Configuration.ascx</DependentUpon>
     </Compile>
     <Compile Include="Views\Main.ascx.cs">
       <DependentUpon>Main.ascx</DependentUpon>
@@ -912,6 +919,8 @@
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\jquery-1.6.3.js" />
     <Content Include="Scripts\jquery-1.6.3.min.js" />
+    <Content Include="Scripts\lodash.js" />
+    <Content Include="Scripts\lodash.min.js" />
     <Content Include="Scripts\moment-with-locales.js" />
     <Content Include="Scripts\moment-with-locales.min.js" />
     <Content Include="Scripts\moment.js" />
@@ -964,6 +973,7 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Settings.ascx" />
+    <Content Include="Views\Configuration.ascx" />
     <Content Include="Views\Main.ascx" />
     <Content Include="Views\NoSettings.ascx" />
     <Content Include="module.less" />

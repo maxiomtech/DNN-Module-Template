@@ -12,8 +12,9 @@
 
          constructor(private $scope) {
              var vm = this;
-
              this.init();
+
+             
              
          }
 

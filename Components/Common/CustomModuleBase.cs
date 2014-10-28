@@ -25,7 +25,7 @@ namespace CompanyName.ModuleName.Components.Common
 
         public CustomSettings NominationSettings
         {
-            get { return new CustomSettings(ModuleId); }
+            get { return new CustomSettings(ModuleConfiguration); }
 
         }
 
