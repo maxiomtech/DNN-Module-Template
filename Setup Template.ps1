@@ -13,8 +13,8 @@ if(-not($companyName) -or -not($companyName)) {
 $fileName = Get-ChildItem $PSScriptRoot -Recurse -Exclude *.ps1 | Where-Object  {$_.FullName -notmatch "\\scripts\\?" }
 
 $filename | %{
-    (gc $_) -replace "companyName", $companyName |Set-Content $_.fullname
-    (gc $_) -replace "moduleName", $moduleName |Set-Content $_.fullname
+    (gc $_) -replace "CompanyName", $companyName |Set-Content $_.fullname
+    (gc $_) -replace "ModuleName", $moduleName |Set-Content $_.fullname
 }
 
 
