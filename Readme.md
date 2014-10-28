@@ -14,6 +14,15 @@ with AngularJS and Asp.Net WebApi
 
 *Happy coding!*
 
+## Basics uses case
+
+- You will start by building Entity classes in /Components/Entities.
+- Next you will create a *Repository to map to your entity in /Components/Data.
+- You can then use your Respository in the provided /Components/WebApi/* controller or you can create your own.
+- Now you will shift from the server to the client by updating the /Client/Common/Services/Api.ts to pull in your data from the server.
+- At this point you can utilize individual /Views or use UI-Route w/ templates.
+
+
 ## Features
 
 - **Loader.ascx** will inject any of the Views located in the */Views* folder.
@@ -23,7 +32,17 @@ Additional files will be added based on the View name selected. ex. (/Views/Main
 - AngularJS files use the long-form instantiation method in order to be minify safe.
 - **MSBuild** scripts are used to package the module into Install & Source zips located in the */Install* directory. 
 - Uses AutoFac for Dependency Injection in the WebApi Controllers.
-- Uses DAL2 PetaPoco with the Repository pattern for the Data Access Layer
+- Uses DAL2 PetaPoco with the Repository pattern for the Data Access Layer.
+- All dependencies are added as Nuget packages and can be found in the Packages.config
+- <code>CustomModuleBase.cs</code> handles most of the DNN user control injection logic. Also injects the client side dependencies.
+- <code>CustomSettings.cs</code> is like <code>ModuleSettings</code> but strongly named for your module. It's available in all views.
+
+## Misc Features
+
+- Scaffold for DNN Scheduler
+- Scaffold for Sitemap provider.
+
+Additional scaffolds coming soon for Import/Export and more...
 
 ***Note: you must set the project from debug to release mode for installation zips to be created.***
 

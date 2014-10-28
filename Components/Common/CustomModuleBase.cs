@@ -23,7 +23,7 @@ namespace CompanyName.ModuleName.Components.Common
 
         public string SelectedControl { get; set; }
 
-        public CustomSettings NominationSettings
+        public CustomSettings CustomSettings
         {
             get { return new CustomSettings(ModuleConfiguration); }
 
