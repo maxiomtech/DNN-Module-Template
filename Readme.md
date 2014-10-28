@@ -1,6 +1,6 @@
 # DNN Module Template w/ WebApi & AngularJS
 
-This template is a base starting point for building highly performance client side applications
+This template is a base starting point for building highly performant client side applications
 with AngularJS and Asp.Net WebApi
 
 ## Installation
