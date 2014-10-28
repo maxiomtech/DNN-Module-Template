@@ -1,7 +1,7 @@
 # DNN Module Template w/ WebApi & AngularJS
 
 This template is a base starting point for building highly performant client side applications
-with AngularJS and Asp.Net WebApi
+with AngularJS, RxJS, and Asp.Net WebApi
 
 ## Installation
 
@@ -28,7 +28,7 @@ with AngularJS and Asp.Net WebApi
 - **Loader.ascx** will inject any of the Views located in the */Views* folder.
 - AngularJS files are automatically injected into the page by naming convention. Files in /Client/Common subdirectories will be added to every view. 
 Additional files will be added based on the View name selected. ex. (/Views/Main.ascx will load /Client/Main/*).
-- AngularJS fiels are added using DNN's Client Dependency Framework utilizing the <code>ForceProvider="DnnFormBottomProvider"</code> attribute in order for all files to be added to the bottom of the body.
+- AngularJS files are added using DNN's Client Dependency Framework utilizing the <code>ForceProvider="DnnFormBottomProvider"</code> attribute in order for all files to be added to the bottom of the body.
 - AngularJS files use the long-form instantiation method in order to be minify safe.
 - **MSBuild** scripts are used to package the module into Install & Source zips located in the */Install* directory. 
 - Uses AutoFac for Dependency Injection in the WebApi Controllers.
