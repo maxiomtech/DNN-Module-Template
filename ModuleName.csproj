@@ -982,6 +982,7 @@
     <Content Include="Providers\SqlDataProvider\01.00.00.SqlDataProvider" />
     <Content Include="Providers\SqlDataProvider\Uninstall.SqlDataProvider" />
     <Content Include="CompanyName.ModuleName.dnn" />
+    <Content Include="Readme.md" />
     <None Include="Scripts\jquery-1.6.3-vsdoc.js" />
     <Content Include="Scripts\toastr.min.js.map" />
     <Content Include="Scripts\version.json" />

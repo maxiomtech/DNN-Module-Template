@@ -3,15 +3,15 @@
 
 
 
-<dnn:DnnJsInclude runat="server" Priority="200" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="200" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/rx.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="200" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="200" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/rx.js"></dnn:DnnJsInclude>
 
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular-sanitize.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular-ui-router.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/rx.angular.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/lodash.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/toastr.js"></dnn:DnnJsInclude>
-<dnn:DnnJsInclude runat="server" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/moment.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular-sanitize.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/angular-ui-router.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/rx.angular.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/lodash.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/toastr.js"></dnn:DnnJsInclude>
+<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="201" FilePath="~/DesktopModules/CompanyName/ModuleName/Scripts/moment.js"></dnn:DnnJsInclude>
 
 <dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" Priority="300" FilePath="~/DesktopModules/CompanyName/ModuleName/Client/app.js"></dnn:DnnJsInclude>
 
