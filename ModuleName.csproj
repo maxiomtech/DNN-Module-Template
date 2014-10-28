@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac">
-      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <HintPath>packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
     </Reference>
     <Reference Include="ClientDependency.Core">
       <HintPath>..\..\..\bin\ClientDependency.Core.dll</HintPath>
@@ -968,9 +968,9 @@
     <Content Include="module.less" />
     <Content Include="BuildScripts\ModulePackage.targets" />
     <Content Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
-    <Content Include="CompanyName.ModuleTemplate.dnn" />
     <Content Include="Providers\SqlDataProvider\01.00.00.SqlDataProvider" />
     <Content Include="Providers\SqlDataProvider\Uninstall.SqlDataProvider" />
+    <Content Include="CompanyName.ModuleName.dnn" />
     <None Include="Scripts\jquery-1.6.3-vsdoc.js" />
     <Content Include="Scripts\toastr.min.js.map" />
     <Content Include="Scripts\version.json" />
