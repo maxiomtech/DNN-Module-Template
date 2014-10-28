@@ -78,6 +78,7 @@
       <InstallInclude Include="**\*.resx" Exclude="@(DefaultExclude)" />
       <InstallInclude Include="**\*.aspx" Exclude="@(DefaultExclude)" />
       <InstallInclude Include="**\*.js" Exclude="@(DefaultExclude)" />
+	  <InstallInclude Include="**\*.ts" Exclude="@(DefaultExclude)" />
       <InstallInclude Include="**\*.xsl" Exclude="@(DefaultExclude)" />
       <InstallInclude Include="**\*.xslt" Exclude="@(DefaultExclude)" />
       <InstallInclude Include="**\*.xml" Exclude="@(DefaultExclude)" />
