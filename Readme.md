@@ -14,7 +14,7 @@ with AngularJS and Asp.Net WebApi
 
 *Happy coding!*
 
-## Basics uses case
+## Basics
 
 - You will start by building Entity classes in /Components/Entities.
 - Next you will create a *Repository to map to your entity in /Components/Data.
