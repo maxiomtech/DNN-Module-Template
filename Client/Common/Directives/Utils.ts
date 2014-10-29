@@ -1,15 +1,16 @@
 ﻿module CompanyName.ModuleName {
 
-    interface INgEnter extends  ng.IScope {
+    interface INgGreeting extends  ng.IScope {
         ngEnter(): void;
     }
 
-
-    function ngEnter(): ng.IDirective {
+    //Mimics the ngEnter directive functionality.
+    //Remember that camelCase is used like ng-greeting in templates.
+    function ngGreeting(): ng.IDirective {
          return {
             restrict: 'A',
             scope: { ngEnter: '&' },
-            link: (scope : INgEnter, element, attributes) => {
+             link: (scope: INgGreeting, element, attributes) => {
                 element.bind("keydown keypress", event => {
                     if (event.which === 13) {
                         event.preventDefault();
@@ -21,6 +22,6 @@
      }
 
 
-    app.directive('ngEnter', ngEnter);
+    app.directive('ngGreeting', ngGreeting);
 
 }

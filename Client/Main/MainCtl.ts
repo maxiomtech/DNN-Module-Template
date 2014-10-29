@@ -10,7 +10,7 @@
          
          hello: string;    
 
-         constructor(private $scope) {
+         constructor(private $scope, private $log: ng.ILogService) {
              var vm = this;
              this.init();
 
@@ -22,9 +22,13 @@
              this.hello = "Hello World";
          }
 
+         public helloWorld() {
+             this.$log.info('I accept your greeting');
+         }
+
          
      }
 
-     app.controller('MainCtl', ['$scope', MainCtl]);
+     app.controller('MainCtl', ['$scope','$log', MainCtl]);
 
  }

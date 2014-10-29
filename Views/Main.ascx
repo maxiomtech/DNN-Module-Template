@@ -2,4 +2,7 @@
 
 <div ng-controller="MainCtl as vm">
     {{vm.hello}}
+    
+    <input type="text" ng-enter="vm.helloWorld()" />
+
 </div>
