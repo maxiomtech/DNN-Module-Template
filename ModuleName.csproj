@@ -148,8 +148,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\toastr.css" />
-    <Content Include="content\toastr.min.css" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="Documentation\License.htm" />
     <Content Include="Documentation\ReleaseNotes.htm" />
     <Content Include="Images\icon.png" />
@@ -959,8 +959,8 @@
     <Content Include="Scripts\rx.virtualtime.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="content\toastr.scss" />
-    <Content Include="content\toastr.less" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular-touch.min.js.map" />
     <Content Include="Scripts\angular-sanitize.min.js.map" />
@@ -988,13 +988,13 @@
     <Content Include="Scripts\version.json" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Client\Common\Directives\" />
-    <Folder Include="Client\Common\Filters\" />
     <Folder Include="Components\Extensions\" />
     <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Client\app.ts" />
+    <TypeScriptCompile Include="Client\Common\Directives\Utils.ts" />
+    <TypeScriptCompile Include="Client\Common\Filters\Filters.ts" />
     <TypeScriptCompile Include="Client\Common\Services\Api.ts" />
     <TypeScriptCompile Include="Client\Main\MainCtl.ts" />
     <TypeScriptCompile Include="Client\references.ts" />
