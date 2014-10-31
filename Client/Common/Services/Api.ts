@@ -17,9 +17,9 @@
             }
         }
 
-        //Example of getting data from WebApi
+        //Example of getting data from WebApi. 
         public getData() {
-            return this.$http.get(servicesFramework.getServiceRoot('CompanyName/ModuleName') + 'ModuleName/', this.httpConfig);
+            return this.$http.get(servicesFramework.getServiceRoot('CompanyName/ModuleName') + 'ModuleName/GetTestEntity', this.httpConfig);
         }
 
         //Example of returning an Observable Stream of Promise

@@ -23,28 +23,33 @@ with AngularJS, RxJS, and Asp.Net WebApi
 - At this point you can utilize individual /Views or use UI-Route w/ templates.
 
 
-## Features
+## DNN Features
 
 - **Loader.ascx** will inject any of the Views located in the */Views* folder.
 - AngularJS files are automatically injected into the page by naming convention. Files in /Client/Common subdirectories will be added to every view. 
 Additional files will be added based on the View name selected. ex. (/Views/Main.ascx will load /Client/Main/*).
 - AngularJS files are added using DNN's Client Dependency Framework utilizing the <code>ForceProvider="DnnFormBottomProvider"</code> attribute in order for all files to be added to the bottom of the body.
 - AngularJS files use the long-form instantiation method in order to be minify safe.
-- **MSBuild** scripts are used to package the module into Install & Source zips located in the */Install* directory. 
-- Uses AutoFac for Dependency Injection in the WebApi Controllers.
 - Uses DAL2 PetaPoco with the Repository pattern for the Data Access Layer.
 - All dependencies are added as Nuget packages and can be found in the Packages.config
 - <code>CustomModuleBase.cs</code> handles most of the DNN user control injection logic. Also injects the client side dependencies.
 - <code>CustomSettings.cs</code> is like <code>ModuleSettings</code> but strongly named for your module. It's available in all views.
-
-## Misc Features
-
 - Scaffold for DNN Scheduler
 - Scaffold for Sitemap provider.
 
 Additional scaffolds coming soon for Import/Export and more...
 
 ***Note: you must set the project from debug to release mode for installation zips to be created.***
+
+
+## Misc Features
+
+- **MSBuild** scripts are used to package the module into Install & Source zips located in the */Install* directory. 
+- DLL depdendencies are pulled out of the **.dnn** manifest and included in the install & source packages.
+- Uses AutoFac for Dependency Injection in the WebApi Controllers.
+- Uses <code>WebActivatorEx</code> in order to bootstrap the dependency injection at DNN's application start. 
+This library can also be used to invoke additional methods you may need at the very beginning of the DNN application life cycle.
+
 
 ## DNN Versioning
 
