@@ -20,14 +20,14 @@ namespace CompanyName.ModuleName
                     view = Null.SetNullString(Settings["View"]);
                     if (view != "")
                     {
-                        var settingsView = ControlUtilities.LoadControl<CustomModuleBase>(phOutput.TemplateControl, ControlPath + "Views/" + view);
+                        var settingsView = LoadControl(ControlPath + "Views/" + view) as CustomModuleBase;
                         settingsView.SelectedControl = view.Replace(".ascx", "");
                         settingsView.ID = view.Replace(".ascx", "");
                         phOutput.Controls.Add(settingsView);
                     }
                     else
                     {
-                        var defaultView = ControlUtilities.LoadControl<CustomModuleBase>(phOutput.TemplateControl, ControlPath + "Views/NoSettings.ascx");
+                        var defaultView = LoadControl(ControlPath + "Views/NoSettings.ascx") as CustomModuleBase;
                         defaultView.SelectedControl = "NoSettings";
                         defaultView.ID = "NoSettings";
                         phOutput.Controls.Add(defaultView);
@@ -37,7 +37,7 @@ namespace CompanyName.ModuleName
 
                 default:
                     view = Null.SetNullString(Request.QueryString["View"]);
-                    form = ControlUtilities.LoadControl<CustomModuleBase>(phOutput.TemplateControl, ControlPath + "Views/" + view + ".ascx");
+                    form = LoadControl(ControlPath + "Views/" + view + ".ascx") as CustomModuleBase;
                     form.ID = view;
                     form.SelectedControl = view;
                     phOutput.Controls.Add(form);
