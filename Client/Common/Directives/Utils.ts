@@ -1,22 +1,25 @@
 ﻿module CompanyName.ModuleName {
 
-    function ngEnter(): ng.IDirective {
-        return {
-            restrict: 'A',
-            scope: {
-                ngEnter: '&'
-            },
-            link: (scope: any, element, attrs) => {
-                element.bind("keydown keypress", event => {
-                    if (event.which === 13) {
-                        event.preventDefault();
-                        scope.$apply(scope.ngEnter());
-                    }
-                });
-            }
-        }
-    }
+    ////Now implemented in Angular-UI. Re-add if not using Angular-UI
+    //function ngEnter(): ng.IDirective {
+    //    return {
+    //        restrict: 'A',
+    //        scope: {
+    //            ngEnter: '&'
+    //        },
+    //        link: (scope: any, element, attrs) => {
+    //            element.bind("keydown keypress", event => {
+    //                if (event.which === 13) {
+    //                    event.preventDefault();
+    //                    console.log('Not this');
+    //                    scope.$apply(scope.ngEnter());
+    //                }
+    //            });
+    //        }
+    //    }
+    //}
 
+    //Used for quick tabs configuration with angular-ui and not assigning specific ID tags.
     function noIdTabs(): ng.IDirective {
         return {
             restrict: 'A',
@@ -49,7 +52,7 @@
 
 
     app.directive('dateFormatter', dateFormatter)
-        //.directive('ngEnter', ngEnter)
+        //.directive('ngEnter', ngEnter) //See Note on function.
         .directive('noIdTabs', noIdTabs);
 
 }
