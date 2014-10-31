@@ -12,7 +12,7 @@ namespace CompanyName.ModuleName.Components.Data
 
     }
 
-    public class VotingRepository : RepositoryImpl<TestEntity>, IDataRepository
+    public class DataRepository : RepositoryImpl<TestEntity>, IDataRepository
     {
        //Implement Custom Methods
         public bool TransactionPatternExample()

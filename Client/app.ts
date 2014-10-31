@@ -8,7 +8,7 @@ module CompanyName {
         
         //Initalizes angular app
         $("html").attr("ng-app", "ModuleName");
-        export var app: ng.IModule = angular.module('ModuleName', []);
+        export var app: ng.IModule = angular.module('ModuleName', ['rx']);
 
     }
 }

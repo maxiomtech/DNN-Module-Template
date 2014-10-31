@@ -49,7 +49,7 @@
 
 
     app.directive('dateFormatter', dateFormatter)
-        .directive('ngEnter', ngEnter)
+        //.directive('ngEnter', ngEnter)
         .directive('noIdTabs', noIdTabs);
 
 }

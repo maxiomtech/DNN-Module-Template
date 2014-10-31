@@ -2,12 +2,12 @@
     
     export interface IApi {
         getData: () => ng.IHttpPromise<any>;
-        getDataRx: () => Rx.IObservable<ng.IHttpPromise<any>>;
+        getDataRx: () => Rx.IObservable<any>;
     }
 
 
     class Api implements  IApi {
-        constructor(private $http: ng.IHttpService, private rx, private $log: ng.ILogService) { }
+        constructor(private $http: ng.IHttpService, private $log: ng.ILogService, private rx) { }
 
         private httpConfig = {
             headers: {
@@ -32,7 +32,7 @@
 
     }
 
-    ModuleName.app.service('Api', ['$http', 'rx', '$log', Api]);
+    app.service('Api', ['$http', '$log', 'rx', Api]);
 
 }
 

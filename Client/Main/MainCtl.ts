@@ -10,16 +10,18 @@
          
          hello: string;    
 
-         constructor(private $scope, private $log: ng.ILogService) {
+         constructor(private $scope, private $log: ng.ILogService, private Api: IApi) {
              var vm = this;
              this.init();
 
-             
+
              
          }
 
          public init() {
-             this.hello = "Hello World";
+             this.Api.getDataRx().subscribe((result) => {
+                 this.hello = result.data.Name;
+             });
          }
 
          public helloWorld() {
@@ -29,6 +31,6 @@
          
      }
 
-     app.controller('MainCtl', ['$scope','$log', MainCtl]);
+     app.controller('MainCtl', ['$scope','$log','Api', MainCtl]);
 
  }
