@@ -3,6 +3,7 @@ using Autofac;
 
 namespace CompanyName.ModuleName.Components.DI
 {
+    [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(CompanyName.ModuleName.Components.DI.Bindings), "RegisterServices")]
     public class Bindings
     {
 

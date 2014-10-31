@@ -58,6 +58,12 @@
             <assembly>
               <name>CompanyName.ModuleName.dll</name>
             </assembly>
+            <assembly>
+              <name>AutoFac.dll</name>
+            </assembly>
+            <assembly>
+              <name>WebActivatorEx.dll</name>
+            </assembly>
           </assemblies>
         </component>
         <component type="ResourceFile">
