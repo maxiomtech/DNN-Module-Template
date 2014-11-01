@@ -1009,6 +1009,25 @@
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\lodash\lodash.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\ng-grid\ng-grid.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.aggregates.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.async-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.async.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.backpressure-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.backpressure.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.binding-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.binding.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.coincidence-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.coincidence.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.experimental.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.joinpatterns.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.testing.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.time-lite.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.time.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\rx.js\rx.virtualtime.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\toastr\toastr.d.ts" />
   </ItemGroup>
   <ItemGroup>

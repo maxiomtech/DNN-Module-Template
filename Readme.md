@@ -58,3 +58,15 @@ The main verison number for the module is located in the *.dnn manifest file. Up
 ```
 <package name="CompanyName.ModuleName" type="Module" version="1.0.0.0">
 ```
+
+## Packages
+
+- AngularJS
+    - Angular-UI
+    - Angular UI-Router
+- MomentJS
+- LoDash
+- RxJS
+- AutoFac
+- WebActivatorEx
+- Toastr
