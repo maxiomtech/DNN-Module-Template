@@ -1,0 +1,1 @@
+Add custom javascript files. All files in /scripts are for nuget packages and will not be added to source control.
