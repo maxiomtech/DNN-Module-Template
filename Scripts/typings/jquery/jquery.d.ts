@@ -532,6 +532,7 @@ interface BaseJQueryEventObject extends Event {
     result: any;
     stopImmediatePropagation(): void;
     stopPropagation(): void;
+    target: Element;
     pageX: number;
     pageY: number;
     which: number;
@@ -627,6 +628,14 @@ interface JQueryEventConstructor {
 interface JQueryCoordinates {
     left: number;
     top: number;
+}
+
+/**
+ * Elements in the array returned by serializeArray()
+ */
+interface JQuerySerializeArrayElement {
+    name: string;
+    value: string;
 }
 
 interface JQueryAnimationOptions { 
@@ -1321,7 +1330,7 @@ interface JQuery {
     /**
      * Encode a set of form elements as an array of names and values.
      */
-    serializeArray(): Object[];
+    serializeArray(): JQuerySerializeArrayElement[];
 
     /**
      * Adds the specified class(es) to each of the set of matched elements.

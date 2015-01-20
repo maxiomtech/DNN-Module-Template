@@ -4,6 +4,7 @@
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 ///<reference path="rx.d.ts" />
+///<reference path="rx.coincidence-lite.d.ts" />
 
 declare module Rx {
 
