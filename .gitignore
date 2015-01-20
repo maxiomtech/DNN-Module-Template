@@ -157,3 +157,6 @@ $RECYCLE.BIN/
 
 # Custom Ignore
 *GhostDoc.xml
+
+Scripts/
+Content/
