@@ -2,7 +2,7 @@ repo_name: maxiomtech/DNN-Module-Template
 report_id: fc1c4a59134a274bd121d7ee31bc65af
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-27T19:58:37+00:00'
+timestamp: '2024-01-04T14:56:21+00:00'
 requested_by: jsheely
 provider: github
 branch: master
@@ -31,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -41,6 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -52,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2014-10-27 21:25:56.000000000 Z
@@ -63,6 +66,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2015-01-20 03:27:29.000000000 Z
@@ -75,6 +79,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2015-01-20 03:27:29.000000000 Z
@@ -87,6 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/6953/default_17650e39faa714f82fcdb12b14af73c704a15d2f.jpg
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2014-10-27 21:25:56.000000000 Z
@@ -98,6 +104,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -107,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2014-10-27 21:25:56.000000000 Z
@@ -119,6 +127,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/ModuleName.sln
   detection_source: ModuleName.sln
   last_updated_by: Jonathan Sheely
   last_updated_on: 2014-10-27 21:25:56.000000000 Z
@@ -130,6 +139,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template
   detection_source: Repo Metadata
 - name: Angular.UI.Bootstrap
   description: Bootstrap components written in pure AngularJS
@@ -140,6 +150,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14362/default_90e7ce697521dd13e8eb643d3771c2a0e4e6d561.png
+  detection_source_url: https://github.com/maxiomtech/DNN-Module-Template/blob/master/packages.config
   detection_source: packages.config
   last_updated_by: Jonathan Sheely
   last_updated_on: 2015-01-20 03:27:29.000000000 Z
